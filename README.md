@@ -7,7 +7,7 @@
 ### <b> <a href="https://github.com/ErickArgollo/project-Color-Guess">Color Guess</a> </b> <br>
 
 ## Screenshot
-![ScreenShot](https://github.com/ErickArgollo/project-Pixel-Art/blob/main/pixels.png)
+![ScreenShot](https://github.com/ErickArgollo/project-Color-Guess/blob/main/colorguess.png)
 ## Objetivos
   * Dentro de uma possibilidade de cores o jogador deverá tentar adivinhar qual cor foi aleatoriamente selecionada como a cor certa;
   * A paleta de cores deve ser apresentada por círculos coloridos;
