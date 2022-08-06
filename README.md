@@ -1,5 +1,5 @@
 # Seja muito bem-vindo(a) ao meu projeto Color-guess! :rocket:
-![bem-vindo(a)]
+![bem-vindo(a)](https://github.com/ErickArgollo/project-Color-Guess/blob/main/gifguess.gif)
 
 #### <p>Esse projeto tem como objetivo desenvolver uma aplicação utilizando JavaScript, HTML5 e CSS3. Nesta aplicação deverá ser possível jogar um jogo de adivinhação de cores onde toda vez que a cor é adivinhada o placar recebe 3 pontos e caso ocorra um erro, a mensagem de erro é exibida e o placar é zerado. Como um bônus, adicionei a possibilidade do usuário escolher a dificuldade, entre 3 niveis: easy (3 cores), medium (5 cores), hard(6 cores). </p>
 
