@@ -3,6 +3,7 @@ body{
     background-image: url(fundo.jpg);
     background-size: cover;
     font-family: 'Mouse Memoirs', sans-serif;
+    height: 100vh;
 }
 header {
     display: flex;
