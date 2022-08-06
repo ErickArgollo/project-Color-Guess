@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
+body{
+    background-image: url(fundo.jpg);
+    background-size: cover;
+    font-family: 'Mouse Memoirs', sans-serif;
+}
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1{
+    font-size: 100px;
+    font-weight: 900;
+    color: black;
+    margin-bottom: -10px;
+}
+#rgb-color {
+    font-size: 45px;
+    color: red;
+    font-weight: 600;
+    
+}
+#placar {
+    font-size: 30px;
+    margin-top: -10px;
+    color: black;
+}
+
+#game{
+    text-align: center;
+}
+
+#play{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+#circles{
+    display: flex;
+    justify-content: center;
+}
+
+#answer{
+font-size: 50px;
+color: red;
+font-weight: 800;
+}
+
+#easy {
+    height: 40px;
+    width: 40px;
+}
+
+#medium {
+    height: 40px;
+    width: 40px;
+}
+
+#hard {
+    height: 40px;
+    width: 40px;
+}
+
+button{
+    margin-top: 10px;
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+button:hover{
+    transform: translateY(-10px);
+    border: 3px solid red;
+}
+label {
+    font-size: 50px;
+    color: black;
+}
+
+.radium{
+    font-size: 30px;
+}
+.ball {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    margin-right: 6px;
+    border-radius: 100%;
+    border: 1px solid black;
+}
+.ball:hover{
+    border: 2px solid black;
+    transform: translateY(-10px);
+}

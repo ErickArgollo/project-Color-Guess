@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Guess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 id="title">Adivinhe a Cor</h1>
+        <p id="rgb-color">(168, 34, 1)</p>
+        <p id="placar">Placar: <span id="score">0</span></p>
+    </header>
+    <main>
+        <section id="circles"></section>
+        <section id="game">
+            <p id="answer">Escolha uma cor</p>
+            <p id="acertou"></p>
+            <input type="radio" name="dificuldade" id="easy" checked class="radium"><label for="easy">Easy</label>
+            <input type="radio" name="dificuldade" id="medium" class="radium"><label for="">Medium</label>
+            <input type="radio" name="dificuldade" id="hard" class="radium"><label for="hard">Hard</label>
+        </section>
+        <section id="play">
+            <button id="reset-game">Iniciar Jogo</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
