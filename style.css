@@ -1,54 +1,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Mouse+Memoirs&display=swap');
-body{
+
+body {
     background-image: url(fundo.jpg);
     background-size: cover;
     font-family: 'Mouse Memoirs', sans-serif;
     height: 100vh;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    text-shadow: -1px 0 white,
+        0 1px white,
+        1px 0 white,
+        0 -1px white;
 }
+
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-h1{
+
+h1 {
     font-size: 100px;
     font-weight: 900;
     color: black;
     margin-bottom: -10px;
+    text-align: center;
 }
+
 #rgb-color {
     font-size: 45px;
     color: red;
     font-weight: 600;
-    
+
 }
+
 #placar {
     font-size: 30px;
     margin-top: -10px;
     color: black;
 }
 
-#game{
+#game {
     text-align: center;
 }
 
-#play{
+#play {
     display: flex;
     justify-content: center;
     margin-top: 20px;
 }
-#circles{
+
+#circles {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-#answer{
-font-size: 50px;
-color: red;
-font-weight: 800;
+#answer {
+    font-size: 50px;
+    text-shadow: -1px 0 white,
+        0 1px white,
+        1px 0 white,
+        0 -1px white;
+    color: red;
+    font-weight: 800;
 }
 
 #easy {
@@ -66,25 +82,29 @@ font-weight: 800;
     width: 40px;
 }
 
-button{
+button {
     margin-top: 10px;
     height: 50px;
     width: 150px;
     font-size: 20px;
     border: 2px solid black;
 }
-button:hover{
+
+button:hover {
+    scale: (1.02);
     transform: translateY(-10px);
     border: 3px solid red;
 }
+
 label {
     font-size: 50px;
     color: black;
 }
 
-.radium{
+.radium {
     font-size: 30px;
 }
+
 .ball {
     display: inline-block;
     width: 80px;
@@ -93,7 +113,8 @@ label {
     border-radius: 100%;
     border: 1px solid black;
 }
-.ball:hover{
+
+.ball:hover {
     border: 2px solid black;
     transform: translateY(-10px);
 }
